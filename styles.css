@@ -1,0 +1,185 @@
+.logo { /* верхня частина */
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-color: rgb(68, 65, 65);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-text { /* назва бренду */
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.small-text { /* слоган */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 35px;
+            /* градієнтна заливка  */   
+    background: linear-gradient(to right, yellow, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+/*    display: inline-block;*/
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-left: 140px; /* розміщуємо меню ближе до ПРАВОГО краю */
+    font-family: Arial, Helvetica, sans-serif;
+}
+ div > .menu-link { /* меню */
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 15px;
+}
+.menu-link:hover {
+/*    background-color: black; */
+    color: red;
+}
+a {
+    text-decoration: none; /* прибираємо підкреслення в посиланнях */
+}
+.text-on-page { /* текст на сторінках сайту */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 20px;
+    background-color: rgb(247, 247, 247);
+    font-size: 20px;
+    text-align: justify;
+}
+.bottom { /* підвал - нижня частина сторінки */
+    text-align: center;    
+    background-color: rgb(68, 65, 65);
+    padding: 40px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.img-left { /* картинка на головній сторінці */
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 50%;
+    height: 70%;
+}
+.img-right { /* картинка на головній сторінці */
+    float:right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 50%;
+    height: 70%;
+}
+.img-logo { /* картингка з прапором */
+    width: 50px;
+    height: 60px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 1100px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap; 
+        margin-top: 55px;
+        margin-left: 10px; /* розміщуємо меню ближе до ПРАВОГО краю */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo { /* верхня частина */
+        padding-left: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(68, 65, 65);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-text { /* назва бренду */
+        font-size: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .text-on-page { /* текст на сторінках сайту */
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap; 
+        margin-top: 55px;
+        margin-left: 10px; /* розміщуємо меню ближе до ПРАВОГО краю */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo { /* верхня частина */
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgb(68, 65, 65);
+        color: white;
+    }
+    .main-text { /* назва бренду */
+        font-size: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    div > .menu-link { /* меню */
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+    }
+    .text-on-page { /* текст на сторінках сайту */
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+@media screen and (max-width: 740px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        margin-left: 10px; /* розміщуємо меню ближе до ПРАВОГО краю */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .logo { /* верхня частина */
+    /*    padding-left: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px; */
+        background-color: rgb(68, 65, 65);
+        color: white;
+    }
+    .main-text { /* назва бренду */
+        font-size: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .small-text { /* слоган */
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    /*    padding-left: 10px;
+        padding-top: 35px;*/
+                /* градієнтна заливка  */   
+        background: linear-gradient(to right, yellow, blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    /*    display: inline-block;*/
+    }
+    div > .menu-link { /* меню */
+        color: white;
+    /*    padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 20px;*/
+    }
+    .text-on-page { /* текст на сторінках сайту */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
